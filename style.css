@@ -1,0 +1,173 @@
+.banner{
+	width: 100%;
+}
+
+.index-body{
+	background: linear-gradient(#FEFEFE 45%, #A2C5E5)
+}
+
+.caixa{
+  position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+nav{
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
+
+nav li{
+	font-weight: bold;
+	font-size: 24px;
+	display: inline;
+	margin-left: 16px;
+}
+
+nav a{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #000000;
+}
+
+nav a:hover{
+	text-decoration: underline;
+	color: #0983F3;
+}
+
+
+h1{
+  text-align: right;
+  text-shadow: 50em;
+  font-size: 2em;
+  font-weight: bold;
+  padding-bottom: 2.5em;
+  padding-top: 0.8em;
+}
+
+
+/*Corpo principal da pagina*/
+.informacao{
+  position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+.informacao h2{
+  font-weight: bold;
+  font-size: 1em;
+  border-bottom: 0.25em solid #0983F3;
+  padding-bottom: 0.1em;
+}
+
+/*------------------------- Secao perfil -------------------------*/
+.informacao-perfil{
+    margin-top: 4.5em;
+}
+
+.informacao .informacao-perfil h2{
+    max-width: 4.5em;
+    margin-bottom: 1.5em;
+}
+
+.itens{
+	line-height: 1.5;
+  padding: 0.2em 0 0 1em;
+}
+
+.itens:before{
+	content: "✓ ";
+}
+
+.itens:first-child{
+	font-weight: bold;
+}
+
+/*------------------------- Secao contato -------------------------*/
+.informacao-contato{
+    margin-top: 25em;
+}
+
+.informacao .informacao-contato h2{
+    max-width: 6.5em;
+    margin-bottom: 1.5em;
+}
+
+.informacao .informacao-contato h3{
+  font-weight: bold;
+  margin-top: 1em;
+}
+
+.informacao .informacao-contato p{
+  padding: 0.2em 0 0 1em;
+}
+
+.informacao .informacao-contato a{
+  padding: 0.2em 0 0 1em;
+}
+
+
+
+/*------------------------- Secao experiencia do trabalho -------*/
+.informacao-experiencia{
+  margin-top: 15.3em;
+}
+
+.informacao .informacao-experiencia h2{
+    max-width: 8.5em;
+    margin-bottom: 1.5em;
+}
+
+.informacao .informacao-experiencia h3{
+  font-weight: bold;
+  margin-top: 1em;
+  padding-bottom: 0.2em;
+}
+
+.informacao .informacao-experiencia p{
+  padding-bottom: 0.2em;
+}
+
+
+
+/*------------------------- Secao educacao -------------------------*/
+.informacao-educacao{
+  margin-top: 14.2em;
+}
+
+.informacao .informacao-educacao h2{
+    max-width: 6.5em;
+    margin-bottom: 1.5em;
+}
+
+.informacao .informacao-educacao h3{
+  font-weight: bold;
+  margin-top: 1em;
+  padding-bottom: 0.2em;
+}
+
+/*------------------------- Secao habilidade -------------------------*/
+.informacao-habilidade{
+  margin-top: 22em;
+}
+
+.informacao .informacao-habilidade h2{
+    max-width: 15.5em;
+    margin-bottom: 1em;
+}
+
+/*------------------------- Secao footer -------------------------*/
+footer{
+  position: relative;
+	text-align: center;
+	padding: 40px 0px;
+	bottom: 0;
+	width: 100%;
+}
+.copyright{
+	color: #FFFFFF;
+	font-size: 22px;
+	margin-top: 20em;
+}
+
